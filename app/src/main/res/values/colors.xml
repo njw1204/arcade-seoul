@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="lightWhite">#eeeeee</color>
+    <color name="darkGray">#757575</color>
+    <color name="light_dark_white">#e0e0e0</color>
+
+    <color name="lightBlack">#212121</color>
+    <color name="m_grey_800">#424242</color>
+    <color name="m_brown_100">#d7ccc8</color>
+    <color name="m_grey_100">#f5f5f5</color>
+    <color name="m_grey_900">#212121</color>
+    <color name="m_grey_300">#e0e0e0</color>
+    <color name="m_bluegrey_100">#cfd8dc</color>
+    <color name="light_grey_234">#eaeaea</color>
+    <color name="light_grey_240">#f0f0f0</color>
+</resources>
