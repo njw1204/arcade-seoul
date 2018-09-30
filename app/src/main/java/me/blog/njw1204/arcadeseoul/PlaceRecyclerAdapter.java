@@ -19,12 +19,10 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class PlaceRecyclerAdapter extends RecyclerView.Adapter<PlaceRecyclerAdapter.PlaceItemViewHolder> {
-    private Context context;
     private ArrayList<PlaceItem> items, displayItems;
     private boolean displayAll;
 
-    PlaceRecyclerAdapter(Context context, ArrayList<PlaceItem> items) {
-        this.context = context;
+    PlaceRecyclerAdapter(ArrayList<PlaceItem> items) {
         this.items = items;
         this.displayItems = new ArrayList<>();
         this.displayAll = true;
@@ -46,7 +44,7 @@ public class PlaceRecyclerAdapter extends RecyclerView.Adapter<PlaceRecyclerAdap
         holder.location.setText(cItem.getLocation());
         holder.openTime.setText(cItem.getOpenTime());
         holder.rating.setRating(cItem.getRating());
-        holder.ratingInfo.setText(String.format(Locale.KOREA, "%.1f (%d명)", cItem.getRating(), cItem.getVoteCount()));
+        holder.ratingInfo.setText(String.format(Locale.KOREA, "%.1f점 (%d명)", cItem.getRating(), cItem.getVoteCount()));
 
         for (int i = 0; i < holder.tags.size(); i++) {
             TextView nowTagView = holder.tags.get(i);
@@ -98,6 +96,10 @@ public class PlaceRecyclerAdapter extends RecyclerView.Adapter<PlaceRecyclerAdap
             }
         }
         notifyDataSetChanged();
+    }
+
+    ArrayList<PlaceItem> getDisplayItems() {
+        return (displayAll ? items : displayItems);
     }
 
     class PlaceItemViewHolder extends RecyclerView.ViewHolder {

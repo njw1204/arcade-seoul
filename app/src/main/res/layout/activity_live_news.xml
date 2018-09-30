@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey_240"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".LiveNewsActivity">
+
+    <Button
+        android:id="@+id/button_twitter_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif"
+        android:text="오락실 인기 트윗"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_inven_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6EB929"
+        android:fontFamily="sans-serif"
+        android:text="인벤 주요뉴스"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_gamemeca_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="sans-serif"
+        android:text="게임메카 주요뉴스"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_gamemeca_sungji"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF91B5"
+        android:fontFamily="sans-serif"
+        android:text="게임메카 성지순례"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_thisisgame_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#B253EB"
+        android:fontFamily="sans-serif"
+        android:text="디스이즈게임 주요뉴스"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

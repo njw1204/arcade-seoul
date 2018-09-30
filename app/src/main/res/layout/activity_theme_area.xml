@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemeAreaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="인기 오락실"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="신규 오락실"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="대형 오락실"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="소형 오락실"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="가족끼리"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="친구끼리"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="연인끼리"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="혼자서"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="캐주얼"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="리듬게임"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_theme_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="격투게임"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_theme_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/area_textview_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="고전게임"
+            android:textColor="@color/lightWhite"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

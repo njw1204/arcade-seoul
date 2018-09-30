@@ -9,8 +9,9 @@ public class Splash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.splash);
         Handler hnd = new Handler();
-        hnd.postDelayed(new startMain(), 1000);
+        hnd.postDelayed(new startMain(), 1200);
     }
 
     private class startMain implements Runnable{
